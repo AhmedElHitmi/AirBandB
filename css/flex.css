@@ -1,0 +1,50 @@
+/********************* Flex container****************/
+/*.corps {
+  display:flex;
+}*/
+.flexbox {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+/********************* Image container****************/
+.ville {
+  width: 100%;
+  height: auto;
+  z-index: 0;
+}
+
+.flex-item h1 {
+  position: absolute;
+  top:50%;
+  z-index: 1;
+  color:#fff;
+  width: 100%;
+  text-align: center;
+  }
+/********************* /Image container****************/
+
+/********************* Flex item****************/
+.flex-item {
+  position: relative;
+  flex: 1 200px;
+  margin: 5px 5px;
+}
+/********************* /Flex item****************/
+
+/********************* @media query****************/
+@media screen and (min-width: 780px) {
+  .corps {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+}
+
+
+}
+
+/********************* /@media query****************/
