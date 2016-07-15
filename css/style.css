@@ -1,4 +1,17 @@
 /* ====================encar=================================================*/
+header {
+  background-image:url(/home/eha/projets/AirBanB/img/background.jpg);
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.logo {
+  width: 50%;
+  float:left;
+}
+
 .titre {
   width: 100%;
   text-align: center;
@@ -8,4 +21,14 @@
   text-align: center;
   margin-top: 30px;
 }
-/* ==================== /encar=================================================
+
+.encadre{
+  padding: 0 6px 0 6px;
+  border: 1px solid #fff;
+  color:#fff;
+}
+/* ==================== /encar================================================*/
+
+/* ==================== video ================================================*/
+
+/* ==================== /video=================================================
