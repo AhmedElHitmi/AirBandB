@@ -1,12 +1,19 @@
 /* ====================encar=================================================*/
 header {
   background-image:url(/home/eha/projets/AirBanB/img/background.jpg);
-  height: 500px;
+  height: 800px;
   background-repeat: no-repeat;
   background-size: cover;
 
 }
 
+
+footer{
+  background-color: grey;
+  height: 300px;
+  text-align: center;
+
+}
 .logo {
   width: 50%;
   float:left;
@@ -15,6 +22,11 @@ header {
 .titre {
   width: 100%;
   text-align: center;
+  color:#fff;
+}
+
+.cadrer {
+  margin-top: 20%;
 }
 
 .but {
@@ -27,6 +39,12 @@ header {
   border: 1px solid #fff;
   color:#fff;
 }
+
+.text-b a {
+  color: #fff;
+}
+
+
 /* ==================== /encar================================================*/
 
 /* ==================== video ================================================*/
