@@ -1,6 +1,6 @@
 /* ====================encar=================================================*/
 header {
-  background-image:url(/home/eha/projets/AirBanB/img/background.jpg);
+  background-image:url(../img/background.jpg);
   height: 800px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -8,12 +8,27 @@ header {
 }
 
 
+/*********** footer *********/
+
 footer{
-  background-color: grey;
-  height: 300px;
-  text-align: center;
+ /*background-image:url(/home/eha/projets/AirBanB/img/backgroundfooter.jpg);*/
+ color: white;
+ text-align: center;
+ background-image: url("../img/backgroundfooter.jpg");
+ margin-top: 5%;
+ margin:auto 10%;
+width: auto;
 
 }
+
+.flexbox{
+  display:flex;
+}
+
+
+/*********** /footer *********/
+
+
 .logo {
   width: 50%;
   float:left;
@@ -26,7 +41,7 @@ footer{
 }
 
 .cadrer {
-  margin-top: 20%;
+  margin-top: 18%;
 }
 
 .but {
